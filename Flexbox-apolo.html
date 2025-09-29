@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .friend {
+            width: 270px;
+        }
+        .NAME {
+            width: 150px;
+        }
+        .IMG {
+            width: 55px;
+            position: relative;
+
+        }
+        .FOLLOW {
+            width: 75px;
+        }
+        p {
+            margin: 0px;
+            font-family: arial;
+            font-size: 15px;
+        }
+        .name-cat {
+            font-weight: bold;
+        }
+        .info {
+            font-size: 13px;
+            color: grey;
+        }
+        .add {
+            background-color: rgb(75, 132, 255);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .FOLLOW {
+        position: relative;
+        }
+        .add {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        }
+        .cat-image {
+        width: 40px;
+        border-radius: 50px;  
+        top: 50%;
+        position: absolute;
+        margin: 0px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-left: 5px;
+        }
+        button:hover {
+            opacity: 0.4;
+        }
+        button:active {
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <div style="
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;">
+            <div class="friend" style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;">
+            <div class="IMG">
+                <img class="cat-image" src="Cat1.jpg" alt="">
+            </div>
+            <div class="NAME"><p class="name-cat">Oliver</p>
+                <p class="info">the cat</p>
+                <p class="info">popular</p>
+            </div>
+            <div class="FOLLOW">
+                <button class="add">follow</button>
+            </div>
+            
+        </div>
+            <div class="friend" style="
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;">
+            <div class="IMG">
+                <img class="cat-image" src="Cat2.jpg" alt="">
+            </div>
+            <div class="NAME"><p class="name-cat">Mark</p>
+                <p class="info">nerd cat</p>
+                <p class="info">popular</p>
+            </div>
+            <div class="FOLLOW">
+                <button class="add">follow</button>
+            </div>
+            
+        </div>
+            <div class="friend" style="
+            display: flex;
+            flex-direction: row;">
+            <div class="IMG">
+                <img class="cat-image" src="Cat3.jpg" alt="">
+            </div>
+            <div class="NAME"><p class="name-cat">Oliver</p>
+                <p class="info">Im not a cat</p>
+                <p class="info">popular</p>
+            </div>
+            <div class="FOLLOW">
+                <button class="add">follow</button>
+            </div>
+            
+        </div>
+    
+    </div>
+    
+</body>
+</html>
